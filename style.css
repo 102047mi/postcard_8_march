@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper {
+    min-height: 100%;
+    background: linear-gradient(150deg, rgb(171, 240, 254), rgb(252, 155, 215)50%)
+}
