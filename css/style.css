@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Caveat', cursive;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-image:url(/img/back_ground.jpg) ;
+}
+
+.title{
+    font-size: 200px;
+    text-align: center;
+}
+
+.main__text{
+    font-size: 200px;
+    text-align: center;
+}
+
+.main__img_wrap{
+        animation: heartbeat 1s infinite;
+        display: inline-block;
+        height: 50px;
+        margin: 0 10px;
+        position: relative;
+        top: 0;
+        position: absolute; 
+        left: 45%; top: 60%;
+        width: 50px;
+}
+
+.main__img{
+    width: 250px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( 1 )    
+  }
+  20%
+  {
+    transform: scale( 1.25 ) 
+  }
+   40%
+  {
+    transform: scale( 1.5 )
+  }
+}
